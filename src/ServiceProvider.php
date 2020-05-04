@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider implements DeferrableProvider
         });
 
         $this->app->extend('migration.creator', function () {
-            return $this->app->make(MigrationCreator::class, __DIR__ . '/../stubs/');
+            return $this->app->make(MigrationCreator::class, ['customStubPath' => __DIR__ . '/../stubs/']);
         });
     }
 
