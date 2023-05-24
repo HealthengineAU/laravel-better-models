@@ -17,6 +17,7 @@
         "illuminate/database": "~5.6|~6.0|>=7.0",
         "illuminate/support": "~5.6|~6.0|>=7.0"
     },
+    "abandoned": "laravel/framework",
     "autoload": {
         "psr-4": {
             "HealthEngine\\BetterModels\\": "src/"
