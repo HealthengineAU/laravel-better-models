@@ -1,3 +1,9 @@
+> **Warning**
+>
+> This repository is archived.
+>
+> Use [laravel/framework](https://github.com/laravel/framework) instead.
+
 # Laravel Better Models
 
 This is a custom package designed for Laravel. It overrides some generators to modify the namespace and base models
